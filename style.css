@@ -5,7 +5,6 @@ body{
 }
 
 header{
-    width: 100%;
     height: 80px;
     background-color: rgb(212, 212, 212);
 }
@@ -14,7 +13,6 @@ header h1{
     width: 100%;
     height: 80px;
     position: absolute;
-    height: 40px;
     text-align: center;
     font-family: 'Billabong', sans-serif;
     letter-spacing: 5px;
@@ -23,14 +21,11 @@ header h1{
 }
 
 #content{
-    margin: 0px auto;
-    width: 30%;
+    margin: 0 auto;
+    width: 35%;
 }
 
 .feed{
-    display: block;
-    width: 100%;
-    height: auto;
     margin-top: 60px;
     margin-bottom: 60px;
     background-color: rgb(212, 212, 212);
@@ -41,7 +36,6 @@ header h1{
 }
 
 .feed section:first-child{
-    width: 100%;
     height: 8%;
 }
 
@@ -71,13 +65,11 @@ header h1{
 }
 
 .feed article{
-    width: 100%;
     height: 75%;
 }
 
 .feed > article > img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
