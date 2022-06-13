@@ -7,29 +7,32 @@ body{
 header{
     height: 80px;
     background-color: rgb(212, 212, 212);
+    line-height: 2;
 }
 
 header h1{
     width: 100%;
-    height: 80px;
-    position: absolute;
     text-align: center;
     font-family: 'Billabong', sans-serif;
     letter-spacing: 5px;
     font-size: 40px;
-    margin: 20px 0px 20px 0px;
+    margin: 0;
 }
 
 #content{
-    margin: 0 auto;
-    width: 35%;
+    display: flex;
+    justify-content: center;
 }
 
 .feed{
+    display: block;
+    width: 35%;
     margin-top: 60px;
-    margin-bottom: 60px;
     background-color: rgb(212, 212, 212);
+}
 
+.head-feed{
+    height: 50px;
 }
 
 .feed section p{
@@ -63,7 +66,6 @@ header h1{
 
 .feed > article > img{
     width: 100%;
-    object-fit: cover;
 }
 
 .text{
@@ -77,9 +79,7 @@ header h1{
 }
 
 .feed .text > .icon{
-    display: inline;
     margin: 5px;
-    height: 30px;
 }
 
 .icon #save{
